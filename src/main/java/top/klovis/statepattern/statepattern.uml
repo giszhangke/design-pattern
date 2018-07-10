@@ -2,12 +2,110 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="732.0" y="150.0">top.klovis.statepattern.NotInitState</node>
+    <node x="244.00000000000006" y="150.0">top.klovis.statepattern.StartState</node>
+    <node x="462.00000000000006" y="658.0">top.klovis.statepattern.ContextTest</node>
+    <node x="409.00000000000006" y="368.0">top.klovis.statepattern.Context</node>
+    <node x="488.00000000000006" y="150.0">top.klovis.statepattern.InitState</node>
+    <node x="0.0" y="150.0">top.klovis.statepattern.EndState</node>
+    <node x="526.59375" y="0.0">top.klovis.statepattern.State</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <edges>
+    <edge source="top.klovis.statepattern.InitState" target="top.klovis.statepattern.State">
+      <point x="0.0" y="-74.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.EndState" target="top.klovis.statepattern.Context">
+      <point x="56.0" y="74.0" />
+      <point x="168.0" y="338.0" />
+      <point x="454.00000000000006" y="338.0" />
+      <point x="-90.0" y="-120.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.NotInitState" target="top.klovis.statepattern.State">
+      <point x="0.0" y="-74.0" />
+      <point x="844.0" y="130.0" />
+      <point x="630.1937499999999" y="130.0" />
+      <point x="29.599999999999966" y="50.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.ContextTest" target="top.klovis.statepattern.Context">
+      <point x="41.0" y="-39.0" />
+      <point x="585.0" y="633.0" />
+      <point x="611.5" y="633.0" />
+      <point x="67.5" y="120.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.StartState" target="top.klovis.statepattern.State">
+      <point x="0.0" y="-74.0" />
+      <point x="356.00000000000006" y="130.0" />
+      <point x="570.99375" y="130.0" />
+      <point x="-29.600000000000023" y="50.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.InitState" target="top.klovis.statepattern.Context">
+      <point x="56.0" y="74.0" />
+      <point x="656.0" y="318.0" />
+      <point x="574.0" y="318.0" />
+      <point x="30.0" y="-120.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.Context" target="top.klovis.statepattern.InitState">
+      <point x="0.0" y="-120.0" />
+      <point x="-56.0" y="74.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.Context" target="top.klovis.statepattern.StartState">
+      <point x="-60.0" y="-120.0" />
+      <point x="484.00000000000006" y="328.0" />
+      <point x="300.00000000000006" y="328.0" />
+      <point x="-56.0" y="74.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.NotInitState" target="top.klovis.statepattern.Context">
+      <point x="56.0" y="74.0" />
+      <point x="900.0" y="338.0" />
+      <point x="634.0" y="338.0" />
+      <point x="90.0" y="-120.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.StartState" target="top.klovis.statepattern.Context">
+      <point x="56.0" y="74.0" />
+      <point x="412.00000000000006" y="318.0" />
+      <point x="514.0" y="318.0" />
+      <point x="-30.0" y="-120.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.EndState" target="top.klovis.statepattern.State">
+      <point x="0.0" y="-74.0" />
+      <point x="112.0" y="120.0" />
+      <point x="541.39375" y="120.0" />
+      <point x="-59.19999999999999" y="50.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.Context" target="top.klovis.statepattern.State">
+      <point x="120.0" y="-120.0" />
+      <point x="664.0" y="348.0" />
+      <point x="966.5" y="348.0" />
+      <point x="966.5" y="120.0" />
+      <point x="659.79375" y="120.0" />
+      <point x="59.200000000000045" y="50.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.Context" target="top.klovis.statepattern.EndState">
+      <point x="-120.0" y="-120.0" />
+      <point x="424.00000000000006" y="348.0" />
+      <point x="56.0" y="348.0" />
+      <point x="-56.0" y="74.0" />
+    </edge>
+    <edge source="top.klovis.statepattern.Context" target="top.klovis.statepattern.NotInitState">
+      <point x="60.0" y="-120.0" />
+      <point x="604.0" y="328.0" />
+      <point x="788.0" y="328.0" />
+      <point x="-56.0" y="74.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7341269841269841" x="483.5" y="368.0" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
 </Diagram>
 

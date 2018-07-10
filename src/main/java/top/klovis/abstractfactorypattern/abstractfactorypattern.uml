@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="149.5" y="231.0">top.klovis.abstractfactorypattern.factory.ShapeFactory</node>
+    <node x="929.0" y="115.5">top.klovis.abstractfactorypattern.feature.impl.Blue</node>
+    <node x="674.5" y="231.0">top.klovis.abstractfactorypattern.factory.ColorFactory</node>
+    <node x="805.0" y="115.5">top.klovis.abstractfactorypattern.feature.impl.Red</node>
+    <node x="806.0" y="0.0">top.klovis.abstractfactorypattern.feature.Color</node>
+    <node x="280.0" y="115.5">top.klovis.abstractfactorypattern.feature.impl.Circle</node>
+    <node x="166.0" y="457.0">top.klovis.abstractfactorypattern.enums.ColorType</node>
+    <node x="385.0" y="358.0">top.klovis.abstractfactorypattern.FactoryProducer</node>
+    <node x="0.0" y="457.0">top.klovis.abstractfactorypattern.enums.ShapeType</node>
+    <node x="0.0" y="115.5">top.klovis.abstractfactorypattern.feature.impl.Square</node>
+    <node x="141.0" y="0.0">top.klovis.abstractfactorypattern.feature.Shape</node>
+    <node x="140.0" y="115.5">top.klovis.abstractfactorypattern.feature.impl.Rectangle</node>
+    <node x="420.0" y="104.0">top.klovis.abstractfactorypattern.factory.AbstractFactory</node>
+    <node x="681.0" y="115.5">top.klovis.abstractfactorypattern.feature.impl.Green</node>
+    <node x="315.0" y="457.0">top.klovis.abstractfactorypattern.enums.FactoryType</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="top.klovis.abstractfactorypattern.feature.impl.Circle" target="top.klovis.abstractfactorypattern.feature.Shape">
+      <point x="0.0" y="-27.0" />
+      <point x="340.0" y="79.0" />
+      <point x="241.0" y="79.0" />
+      <point x="40.0" y="27.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.feature.impl.Square" target="top.klovis.abstractfactorypattern.feature.Shape">
+      <point x="0.0" y="-27.0" />
+      <point x="60.0" y="79.0" />
+      <point x="161.0" y="79.0" />
+      <point x="-40.0" y="27.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.factory.ColorFactory" target="top.klovis.abstractfactorypattern.feature.impl.Blue">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.factory.ColorFactory" target="top.klovis.abstractfactorypattern.feature.impl.Green">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.factory.ShapeFactory" target="top.klovis.abstractfactorypattern.feature.impl.Rectangle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.FactoryProducer" target="top.klovis.abstractfactorypattern.factory.ColorFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.feature.impl.Rectangle" target="top.klovis.abstractfactorypattern.feature.Shape">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.feature.impl.Green" target="top.klovis.abstractfactorypattern.feature.Color">
+      <point x="0.0" y="-27.0" />
+      <point x="733.0" y="79.0" />
+      <point x="823.3333333333334" y="79.0" />
+      <point x="-34.66666666666663" y="27.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.factory.ShapeFactory" target="top.klovis.abstractfactorypattern.feature.impl.Square">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.FactoryProducer" target="top.klovis.abstractfactorypattern.factory.ShapeFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.factory.ShapeFactory" target="top.klovis.abstractfactorypattern.factory.AbstractFactory">
+      <point x="90.375" y="-38.5" />
+      <point x="360.375" y="206.0" />
+      <point x="480.25" y="206.0" />
+      <point x="-60.25" y="38.5" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.feature.impl.Blue" target="top.klovis.abstractfactorypattern.feature.Color">
+      <point x="0.0" y="-27.0" />
+      <point x="981.0" y="79.0" />
+      <point x="892.6666666666666" y="79.0" />
+      <point x="34.66666666666663" y="27.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.feature.impl.Red" target="top.klovis.abstractfactorypattern.feature.Color">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.factory.ColorFactory" target="top.klovis.abstractfactorypattern.feature.impl.Red">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.factory.ColorFactory" target="top.klovis.abstractfactorypattern.factory.AbstractFactory">
+      <point x="-90.375" y="-38.5" />
+      <point x="704.625" y="206.0" />
+      <point x="600.75" y="206.0" />
+      <point x="60.25" y="38.5" />
+    </edge>
+    <edge source="top.klovis.abstractfactorypattern.factory.ShapeFactory" target="top.klovis.abstractfactorypattern.feature.impl.Circle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.936372269705603" x="516.5" y="278.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

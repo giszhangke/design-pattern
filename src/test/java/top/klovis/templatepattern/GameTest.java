@@ -8,6 +8,8 @@ import static org.junit.Assert.*;
  * Created by klovis on 2018/7/9.
  */
 public class GameTest {
+    Game football;
+    Game billiards;
     @Test
     public void testTemplate() {
         Game football = new Football();

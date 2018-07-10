@@ -8,9 +8,9 @@ import static org.junit.Assert.*;
  * Created by klovis on 2018/7/11.
  */
 public class ContextTest {
+    Context context = new Context();
     @Test
     public void test() {
-        Context context = new Context();
         context.init();
         context.start();
         context.end();

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="280.0" y="104.0">top.klovis.factorypattern.impl.Circle</node>
+    <node x="140.0" y="0.0">top.klovis.factorypattern.Shape2</node>
+    <node x="0.0" y="104.0">top.klovis.factorypattern.impl.Rectangle</node>
+    <node x="101.0" y="208.0">top.klovis.factorypattern.ShapeFactory2</node>
+    <node x="0.0" y="307.0">top.klovis.factorypattern.ShapeType2</node>
+    <node x="140.0" y="104.0">top.klovis.factorypattern.impl.Square</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="top.klovis.factorypattern.impl.Rectangle" target="top.klovis.factorypattern.Shape2">
+      <point x="0.0" y="-27.0" />
+      <point x="60.0" y="79.0" />
+      <point x="160.0" y="79.0" />
+      <point x="-40.0" y="27.0" />
+    </edge>
+    <edge source="top.klovis.factorypattern.ShapeFactory2" target="top.klovis.factorypattern.impl.Circle">
+      <point x="66.0" y="-27.0" />
+      <point x="266.0" y="183.0" />
+      <point x="340.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="top.klovis.factorypattern.impl.Circle" target="top.klovis.factorypattern.Shape2">
+      <point x="0.0" y="-27.0" />
+      <point x="340.0" y="79.0" />
+      <point x="240.0" y="79.0" />
+      <point x="40.0" y="27.0" />
+    </edge>
+    <edge source="top.klovis.factorypattern.ShapeFactory2" target="top.klovis.factorypattern.impl.Square">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="top.klovis.factorypattern.ShapeFactory2" target="top.klovis.factorypattern.impl.Rectangle">
+      <point x="-66.0" y="-27.0" />
+      <point x="134.0" y="183.0" />
+      <point x="60.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="top.klovis.factorypattern.impl.Square" target="top.klovis.factorypattern.Shape2">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="200.0" y="203.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
