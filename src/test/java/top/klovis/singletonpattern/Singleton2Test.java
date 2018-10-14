@@ -3,6 +3,7 @@ package top.klovis.singletonpattern;
 import org.junit.Test;
 
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.Exchanger;
 
 import static org.junit.Assert.*;
 
@@ -21,10 +22,17 @@ public class Singleton2Test {
             new Thread("thread:" + String.valueOf(i)) {
                 @Override
                 public void run() {
-                    System.out.println(countDownLatch.getCount() + " " + System.currentTimeMillis() + ":" + Singleton2.getInstance());
+                    try {
+                        countDownLatch.countDown();
+//                    System.out.println(countDownLatch.getCount() + " " + System.currentTimeMillis() + ":" + Singleton2.getInstance());
+                        System.out.println(countDownLatch.getCount() + " " + System.currentTimeMillis() + ":" + Singleton1.getInstance());
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 }
             }.start();
-            countDownLatch.countDown();
+
         }
 
         try {
